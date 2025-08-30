@@ -11,19 +11,19 @@ avec CLI en utilisant les variables "nbr" et "matiere" (via sys.input)
   for i in range(1,8) {
     let matiere = "chimie"
     let chap ="C0"+str(i)
-    include "cours/"+matiere+"/"+chap+"/"+chap+".typ"
-    include "activites/"+matiere+"/"+chap+"/Act"+chap+".typ"
+    include "../../cours/"+matiere+"/"+chap+"/"+chap+".typ"
+    include "../../activites/"+matiere+"/"+chap+"/Act"+chap+".typ"
     counter(heading).update(0) //reset sous titres
     c.update(0) // reset numero exo
   }
 
   counter(heading).update(0)
 
-  for i in range(1,8) {
+  for i in range(1,3) {
     let matiere = "physique"
     let chap ="P0"+str(i)
-    include "cours/"+matiere+"/"+chap+"/"+chap+".typ"
-    include "activite/"+matiere+"/"+chap+"/Act"+chap+".typ"
+    include "../../cours/"+matiere+"/"+chap+"/"+chap+".typ"
+    include "../../activites/"+matiere+"/"+chap+"/Act"+chap+".typ"
     counter(heading).update(0)
     c.update(0)
   }
@@ -34,8 +34,8 @@ avec CLI en utilisant les variables "nbr" et "matiere" (via sys.input)
     if (matiere == "physique") {chap = "P0" } 
     else if (matiere == "chimie") {chap = "C0"}
     chap = chap+str(nbr)
-    include "../cours/"+matiere+"/"+chap+"/"+chap+".typ"
-    include "../activites/"+matiere+"/"+chap+"/Act"+chap+".typ"
+    include "../../cours/"+matiere+"/"+chap+"/"+chap+".typ"
+    include "../../activites/"+matiere+"/"+chap+"/Act"+chap+".typ"
 }
 
 #let nbr = int(sys.inputs.nbr)

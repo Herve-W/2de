@@ -52,12 +52,13 @@ Un rayon de lumière blanche entre dans un prisme en verre au point A, il en sor
   - Après avoir réalisé une série de mesures de deux grandeurs physiques on les représente généralement sur un graphique sous forme de points.
   #figure(image("./media/image5.png",width:75%),caption:"points expérimentaux",numbering: none)
 
-  - Il arrive généralement que les points soient alignés mais pas parfaitement, on trace alors #strong[une droite qui passe au plus près de l’ensemble des points].
+  - Il arrive généralement que les points soient globalement alignés mais pas parfaitement. On trace alors #strong[une droite qui passe au plus près de l’ensemble des points].
     #figure(image("./media/image6.png",width:75%),caption:"courbe modélisée",numbering: none)
 
-  - Lorsque cela est nécessaire on cherche l’équation de cette droite qui est sous la forme y = a x +b
-  Où a est le coefficient directeur (ou pente) et b est l’ordonnée à l’origine.
-  Si b = 0 on parle de fonction #strong[linéaire] sinon la fonction est #strong[affine];.
+  - Lorsque cela est nécessaire on cherche l’équation de cette droite qui est sous la forme #eq($y = a.x +b$ )
+   - a est appelé *coefficient directeur* (c'est la "pente" de la droite)
+   - b est l’ordonnée à l’origine.
+   Si b = 0 on parle de fonction #strong[linéaire] sinon la fonction est #strong[affine];.
 ]
 
 
